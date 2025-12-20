@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descending-Order</title>
+</head>
+<body>
+   <script>
+    let m=parseInt(prompt("Enter a number"));
+    let b=parseInt(prompt("Enter a number"));
+    let c=parseInt(prompt("Enter a number"));
+    if(m<b){
+        temp=m;
+        m=b;
+        b=temp;
+    }if (m<c) {
+        temp=c;
+        c=m;
+        m=temp;
+    }
+    if(b<c){
+        temp=b;
+        b=c;
+        c=temp;
+    }
+    document.write(m+","+b+","+c);
+   </script> 
+</body>
+</html>
