@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Shift</title>
+  </head>
+  <body>
+    <h1>Removes the first array element</h1>
+    <script>
+      var novels = [
+        "Khalifa",
+        "Malika",
+        "Pride",
+        "True Hunt",
+        "Crime and Punishment",
+        "Never Hide",
+        "The king of ocean",
+        "Catch 22",
+      ];
+      console.log(novels);
+      novels.shift();
+      console.log(novels);
+    </script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Slice</title>
+</head>
+<body>
+    <h1>(start and end)</h1>
+   <script>
+    const animal =["Rabbit","Cat","Deer","Panda","Elephant","Tiger","lion"];
+    console.log(animal);
+    let forest =animal.slice(2,5);
+    let b =animal.slice(1,6);
+    console.log(forest);
+    console.log(b);
+   </script> 
+   <script>
+      const num =["1","2","3","4","5","6","7"];
+      console.log(num);
+      console.log(num.slice(-3,-1));
+       console.log(num.slice(3));
+       console.log(num.slice(0,4));
+       console.log(num.slice(-5,-1));
+       console.log(num.slice(1));
+   </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Push</title>
+  </head>
+  <body>
+    <h1>Adds a new element to an array.</h1>
+    <script>
+      // add from last
+      var data = ["P", "A", "R", "K"];
+      console.log(data.length);
+      console.log(data);
+      data.push("J", "I");
+      console.log(data);
+      data.push("M", "I");
+      console.log(data);
+      data.push("N", "I");
+      console.log(data);
+    </script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>array.splice(start_index,)</h1>
+   <script>
+    // slice array
+    // var a =["R","A","F","I","S","H","E","D"];
+    // console.log(a);
+    // var newArray =a.splice(4);
+    // console.log(newArray);
+    // splice Array
+    var a =["R","A","F","I","S","H","E","D"];
+    console.log(a);
+    var newArray = a.splice(4,0,"A");
+    console.log(a);
+    var b =["Saturday","Monday","Tuesday","Wednesday","Friday","Holiday","Weekend","Dayoff"];
+    console.log(b);
+    var newArray = b.splice(1,0,"Sunday");
+    console.log(b);
+    var newArray =b.splice(1,0,"Sunday",4,0,"Thursday")
+    console.log(b);
+   </script> 
+</body>
+</html>
